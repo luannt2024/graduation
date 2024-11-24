@@ -1,0 +1,203 @@
+/* Đảm bảo trang luôn phù hợp với mọi kích thước màn hình */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1816a0; /* Nền tối cho giao diện */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Giao diện cho trang mời */
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.7); /* Nền tối trong suốt */
+}
+
+.bg-opacity-50 {
+  background-color: rgba(40, 52, 212, 0.5); /* Đảm bảo sự mờ đi của nền */
+}
+
+/* Thiết kế cho backdrop */
+.backdrop-blur-lg {
+  backdrop-filter: blur(10px); /* Làm mờ nền phía sau */
+}
+
+/* Style cho các hộp chứa */
+.rounded-xl {
+  border-radius: 1rem;
+}
+
+.shadow-2xl {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Tạo bóng mờ để nổi bật phần nội dung */
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.max-w-4xl {
+  max-width: 900px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gold {
+  border-color: #fbd038; /* Màu vàng cho đường viền */
+}
+
+.font-serif {
+  font-family: 'Georgia', serif;
+}
+
+/* Tiêu đề chính */
+.text-5xl {
+  font-size: 3rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.text-gold {
+  color: #fbd038; /* Màu vàng cho các phần quan trọng */
+}
+
+/* Các phần chữ khác */
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 2rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* Chỉnh sửa khoảng cách */
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-400 {
+  color: #cfcfcf; /* Màu xám cho văn bản phụ */
+}
+
+.h-96 {
+  height: 24rem; /* Định chiều cao cho phần chứa Scene3D */
+}
+
+@media (max-width: 768px) {
+  .text-5xl {
+    font-size: 2.5rem; /* Điều chỉnh kích thước cho màn hình nhỏ */
+  }
+
+  .text-3xl {
+    font-size: 1.5rem;
+  }
+
+  .p-8 {
+    padding: 1.5rem; /* Giảm padding khi ở màn hình nhỏ */
+  }
+
+  .h-96 {
+    height: 18rem; /* Điều chỉnh chiều cao */
+  }
+
+  .max-w-4xl {
+    max-width: 100%; /* Đảm bảo container phù hợp với màn hình nhỏ */
+  }
+}
+.invitation-container .text-3xl {
+  font-size: 1.8rem;
+  color: #fbd038; /* Gold color */
+  margin-bottom: 1.5rem;
+}
+
+.invitation-container .italic {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.invitation-container .confirm-button {
+  background-color: #fbd038; /* Gold color */
+  color: rgb(238, 238, 238);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-container .confirm-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.invitation-container .confirm-button:active {
+  transform: scale(0.95);
+}
+
+.invitation-container .footer-info {
+  color: white;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.invitation-container .confirm-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 30px;
+}

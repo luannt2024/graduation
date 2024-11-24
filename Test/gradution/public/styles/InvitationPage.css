@@ -1,0 +1,71 @@
+.invitationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Nền tối */
+  }
+  
+  .bgWrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #ddd;
+  }
+  
+  .textGold {
+    color: #FFD700; /* Màu vàng */
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Georgia', serif;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .confirmButton {
+    background-color: #FFD700;
+    color: #121212;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirmButton:hover {
+    background-color: #ffcc00;
+  }
+  
+  .footerInfo {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 1rem;
+  }
+  
