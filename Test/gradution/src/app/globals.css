@@ -1,8 +1,7 @@
 /* Đảm bảo trang luôn phù hợp với mọi kích thước màn hình */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #1816a0; /* Nền tối cho giao diện */
-  color: #ffffff;
+  background-color: #E7F5DC;  color: #ffffff;
   margin: 0;
   padding: 0;
   display: flex;
@@ -18,7 +17,8 @@ body {
 }
 
 .bg-opacity-50 {
-  background-color: rgba(40, 52, 212, 0.5); /* Đảm bảo sự mờ đi của nền */
+  background-color: #E7F5DC
+
 }
 
 /* Thiết kế cho backdrop */
